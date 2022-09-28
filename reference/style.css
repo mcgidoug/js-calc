@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Silkscreen", cursive;
+  background-color: rgb(194, 202, 202);
+}
+
+.main-content {
+  margin-top: 15vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.nr-box {
+  border: 2px solid black;
+  padding: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  align-items: center;
+  font-size: 2rem;
+  width: 20vw;
+  min-width: 70vw;
+}
+
+.buttons {
+  display: flex;
+  padding: 1rem;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+button {
+  border: 2px solid black;
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: black;
+}
+
+/* MEDIA QUERIES - TABLETS */
+
+@media screen and (max-width: 1024px) {
+  button {
+    font-size: 20px;
+  }
+  .nr-box {
+    font-size: 20px;
+    width: 50vw;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/*  MEDIA QUERIES - MOBILE PHONES  */
+
+@media screen and (max-width: 600px) {
+  button {
+    font-size: 10px;
+  }
+  .nr-box {
+    font-size: 10px;
+    width: 50vw;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+}
