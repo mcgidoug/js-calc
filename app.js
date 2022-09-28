@@ -1,5 +1,15 @@
-function addition(num1, num2) {
+// basic calc functions
+function add(num1, num2) {
   return num1 + num2;
 }
+function sub(num1, num2) {
+  return num1 - num2;
+}
+function mult(num1, num2) {
+  return num1 * num2;
+}
+function div(num1, num2) {
+  return num1 / num2;
+}
 
-addition(1, 3);
+console.log(div(1, 3));
